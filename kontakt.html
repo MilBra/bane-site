@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Osečina</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://use.fontawesome.com/90ab83eb0f.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+<div class="row">
+  <div class="navigation">
+    <div class="nav-box">
+      
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="hide-on-med-and-down">
+        <li class="center-align"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><br><br>Home</a></li>
+        <li class="center-align"><a href="radovi.html"><i class="fa fa-gavel" aria-hidden="true"></i><br><br>Works</a></li>
+        <li class="center-align"><a href="o-nama.html"><i class="fa fa-address-card" aria-hidden="true"></i><br><br>About Us</a></li>
+        <li class="center-align"><a class="active" href="kontakt.html"><i class="fa fa-envelope" aria-hidden="true"></i><br><br>Contact</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="radovi.html">Works</a></li>
+        <li><a href="o-nama.html">About Us</a></li>
+        <li><a href="kontakt.html">Contact</a></li>
+      </ul>
+    </div>
+  </div> <!--end navigation-->
+</div> <!--end row-->
+
+<div class="row">
+
+  <h2 class="center-align">CONTACT</h2>
+
+  <hr>
+
+</div>
+
+<div class="row">
+  <div class="container forma">
+    <form class="center-align" id="my_form" onsubmit="submitForm(); return false;"">
+      <p>NAME:</p>
+      <input id="n" type="text" name="firstname" required="required">
+      <br>
+      <p>EMAIL:</p>
+      <input id="e" type="email" name="email" required="required">
+      <p>PHONE:</p>
+      <input id="t" type="tel" name="usrtel">
+      <p>MASSAGE:</p>
+      <textarea id="m" name="message" rows="30" required="required">
+      </textarea>
+      <br><br>
+      <input id="mybtn" class="waves-effect waves-light btn" type="submit" value="Send">
+      <input class="waves-effect waves-light btn" type="reset">
+      <span id="status"></span>
+    </form> 
+  </div>
+</div>
+
+
+
+
+
+<div class="row blue-grey darken-3 link-footer">
+  <div class="pre-futer center-align">
+    <div class="col s12 m6 l3">
+      <h5>ERMI-STYLE</h5>
+      <p>PLACE FOR LOGO</p>
+    </div>
+    <div class="col s12 m6 l3">
+      <i class="material-icons big-icon">location_on</i>
+      <p>15220 Koceljeva</p>
+      <p>Serbia</p>
+    </div>
+    <div class="col s12 m6 l3">
+      <i class="material-icons big-icon">info</i>
+      <p>Phone : <a href="tel:+000000">063/000000</a></p>
+      <p>Email: <a href="malito:branislav.milosevic.91@gmail.com">branislav.milosevic.91@gmail.com</a></p>
+    </div>
+    <div class="col s12 m6 l3">
+      <i class="material-icons big-icon">query_builder</i>
+      <p>WORK TIME </p>
+      <b>08 - 20</b>
+    </div>
+  </div> <!--End pre-futer -->
+  
+  </div> <!--End link-footer -->
+
+  <div class="row blue-grey darken-4">
+    <div class="container futer">
+      <div class="col s12 m12 l12 center-align soc-btn fut-soc">
+          <a href="#"> <i class="fa fa-facebook-official fa-margin"></i> </a>
+          <a href="#"> <i class="fa fa-instagram fa-margin"></i> </a>
+          <a href="#"> <i class="fa fa-twitter"></i> </a>
+      </div>
+    </div><!--End futer -->
+  </div>
+
+  <div class="row blue-grey darken-4">
+    <div class="container futer center-align">
+      <div class="col s12 m12 l12">
+        <p> 2017 Copyrights | <b>ERMI-STYLE</b> | Design by: <a href="http://kovalskidesign.com/" target="_blank"> kovalskidesign.com</a></p>
+      </div>
+    </div>
+  </div>
+
+
+<script src="js/form.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script> 
+  $(".button-collapse").sideNav(); 
+</script>
+
+</body>
+</html>
