@@ -120,6 +120,13 @@
 	margin-top: 80px;
 	padding-bottom: 50px;
 }
+
+.about p {
+	padding: 10px 40px;
+}
+
+
+
 .working-photo img {
 	max-width: 400px;
 	padding: 20px;
@@ -206,6 +213,10 @@ hr {
 }
 textarea {
 	max-width: 100% !important;
+}
+
+.btn:hover {
+	background: #263238;
 }
 /**END FORM***/
 
