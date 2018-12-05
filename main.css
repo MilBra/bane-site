@@ -125,6 +125,8 @@
 	padding: 10px 40px;
 }
 
+.about img {width: 100%;}
+
 
 
 .working-photo img {
@@ -146,6 +148,7 @@
 
 .futer {
 	color:#c0c0c0;
+	margin-top: -1px;
 }
 
 .futer a {
